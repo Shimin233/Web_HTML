@@ -11,6 +11,7 @@ Find 'Develop' from menu of Google Chrome (Command+Shift+I) or Web inspector for
   - convenient to adjust look of webpage by looking at it simultaneously
 
 ## Validating web pages
+#### Validating html
 Go to the [webpage of this validator](https://validator.w3.org). 
 As our webpage is now on the local computer, none else can enter it by URI; let us upload the index.html file instead. 
 Then the validator can tell us what might be wrong with out webpage, like: 
@@ -47,3 +48,5 @@ So we fix them:
   </body>
 </html>
 ```
+### Validating CSS
+Go to this [CSS validator](https://jigsaw.w3.org/css-validator/). Now we can just validate by inputting (copying and pasting) all html codes(from index.html) into it, as we embedded all CSS in our html file. We will validate in another way as CSS becomes complicated. Here our current CSS is perfect, no error found. 
