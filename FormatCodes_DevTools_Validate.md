@@ -50,3 +50,5 @@ So we fix them:
 ```
 ### Validating CSS
 Go to this [CSS validator](https://jigsaw.w3.org/css-validator/). Now we can just validate by inputting (copying and pasting) all html codes(from index.html) into it, as we embedded all CSS in our html file. We will validate in another way as CSS becomes complicated. Here our current CSS is perfect, no error found. 
+
+P.S. I tried uploading the index.html to validate CSS, it works in the same way as inputting - maybe this is not suitbale as CSS becomes complicated and no longer is embedded in html file. 
