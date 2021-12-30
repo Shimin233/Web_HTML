@@ -9,3 +9,10 @@ Find 'Develop' from menu of Google Chrome (Command+Shift+I) or Web inspector for
 - can select part of codes that correspond to parts on webpage
   - enable or disable style items, or change value (like sizes; can type in numbers or use up/down arrows)
   - convenient to adjust look of webpage by looking at it simultaneously
+
+## Validating web pages
+Go to the [webpage of this validator](https://validator.w3.org). 
+As our webpage is now on the local computer, none else can enter it by URI; let us upload the index.html file instead. 
+Then the validator can tell us what might be wrong with out webpage, like: 
+- need `lang` for specifying the language used on the webpage
+- need the attribute `alt` for the image `img`. 
