@@ -16,3 +16,34 @@ As our webpage is now on the local computer, none else can enter it by URI; let 
 Then the validator can tell us what might be wrong with out webpage, like: 
 - need `lang` for specifying the language used on the webpage
 - need the attribute `alt` for the image `img`. 
+- (temporarily ignore this)  The character encoding was not declared. Proceeding using windows-1252.
+So we fix them: 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My First Web Page</title>
+    <style>
+      img {
+        width: 120px;
+        border-radius: 60px;
+        float: left;
+        margin-right: 10px;
+      }
+
+      p {
+        font-size: medium;
+      }
+
+      .username {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/长歌2—大头.jpeg" alt="A profile image" />
+    <p class="username">@whoever</p>
+    <p>Hello world!</p>
+  </body>
+</html>
+```
