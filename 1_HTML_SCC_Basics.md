@@ -31,6 +31,7 @@ where html code is not case-sensitive - but we often type everything in lowercas
     </body>
 </html>
 ```
+See the result webpage by right-clicking the coding area - select Open with Live Server (command+L + command+C). 
 
 ## CSS basics
 Further adjust formats of components on this webpage
