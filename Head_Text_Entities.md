@@ -27,4 +27,7 @@ So the boilerplate looks like:
 
 ## Text
 
+`em`, Emphasize, which is by default using _italic_ to stress the enclosed content
+- can change the style of `em` in the `style` section
+
 ## Entities
