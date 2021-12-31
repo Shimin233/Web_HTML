@@ -27,7 +27,23 @@ So the boilerplate looks like:
 
 ## Text
 
-`em`, Emphasize, which is by default using _italic_ to stress the enclosed content
+The `em` element, Emphasize, which is by default using _italic_ to stress the enclosed content
 - can change the style of `em` in the `style` section
 
+Can also change texts to _italic_ by `i` element
+- but html is better to be used for structuring rather than styling, while CSS is for styling
+
+The `strong` element is putting stress and importance to the enclosed text like `em`
+- similarly, though it is by default __bold__ but this style can be changed
+
+Can let text __bold__ using `b` element
+- but again deprecated as `i` is, since we'd better use CSS for styling instead of html
+
+
+
+
+```html
+
+
+```
 ## Entities
