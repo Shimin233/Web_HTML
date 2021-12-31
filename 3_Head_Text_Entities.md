@@ -39,11 +39,45 @@ The `strong` element is putting stress and importance to the enclosed text like 
 Can let text __bold__ using `b` element
 - but again deprecated as `i` is, since we'd better use CSS for styling instead of html
 
-
+A shortcut to produce `em` for text: 
+- select the text we want to emphasise
+- View-Command Palatte (command+shift+P) search for Wrap with abbreviation, and enter 'em', press return(enter), then the selected text is enclosed by `em` element as desired
 
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My First Web Page</title>
+    <style>
+      img {
+        width: 120px;
+        border-radius: 60px;
+        float: left;
+        margin-right: 10px;
+      }
 
+      p {
+        font-size: medium;
+      }
 
+      .username {
+        font-weight: bold;
+      }
+      em {
+        color: red;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/长歌2—大头.jpeg" alt="A profile image" />
+    <p class="username">@whoever</p>
+    <p>
+      Hello <em>world </em>and <i>everyone</i> <strong>here</strong> and
+      <b>everywherea</b> !
+    </p>
+  </body>
+</html>
 ```
 ## Entities
