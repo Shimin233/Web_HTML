@@ -80,4 +80,12 @@ A shortcut to produce `em` for text:
   </body>
 </html>
 ```
+
+HTML has 6 kinds of headings, h1 to h6 with size and 'layer' descending. 
+-the order of layer must be used without skipping, e.g: if we want to add two subsections of `<hi>Heading</hi>`, we must use one or multiple `h(i+1)`'s
+- `h1` as the main heading of the whole page, should be used only once otherwise the search engine will be confused. 
+
 ## Entities
+Entities are symbols or requirements, like
+- `&lt`; `&gt`; `&copy`
+- `Former&nbspLatter`, no line breaking between its former word and latter
