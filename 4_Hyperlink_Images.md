@@ -132,7 +132,10 @@ It is the `a` anchor element used for hyperlinks, to another html, or some non-h
 </html>
 ```
 ## Images
-
+Here we use this website for picture sources, [Unsplash](https://unsplash.com)
+- `alt` is optional but highly recommended, as it helps understand the contents/use of the image and it will show up when the image cannot be loaded
+- to adjust width and height but still maintain the original shape of the image, can use `object-fill:cover`, or realise other effects using other values of `object-fill`  - try them in the web DevTool for immediate result!
+- 
 ## Tips
 - Use command+F to search words in coding text 
 - in `p` element, type `lorem200` would output a 200-in-length testing text
